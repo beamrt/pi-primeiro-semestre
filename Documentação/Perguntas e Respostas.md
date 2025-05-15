@@ -30,8 +30,8 @@
 </ul>
  </nav>
 
-<div style="text-align: center;">
+<div>
   <h3>Proprietários do Salão André & Cia</h3>
   <img src="../Documentação/img/proprietarios.jpeg" 
-       style="width: 120px; height: 120px; border-radius: 50%;" />
+       style="width: 120px; height: 120px;" />
 </div>
