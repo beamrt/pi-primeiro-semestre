@@ -10,13 +10,11 @@
 </div>
 
 <div>
-<<<<<<< HEAD:README/README.md
 <h4>Trabalho de Implementação de Software: Salão André & Cia</h4>
 <img width='80' height='80' src="../README/img/logo.jpeg"/>
-=======
+    
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
 <img src="../Documentação/img/logo.jpeg" width='80' height='80'/>
->>>>>>> 244ec05c99ab1303db3d7da8253e828caef24eea:README.md
 </div>
 
 <h4>Integrantes</h4>
