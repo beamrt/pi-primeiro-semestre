@@ -11,7 +11,7 @@
 
 <div>
 <h4>Trabalho de Implementação de Software: Salão André & Cia</h4>
-<img width='80' height='80' src="../pi-primeiro-semestre/Documentação/img/logo.jpeg"/>
+<img width='80' height='80' src="../README/img/logo.jpeg"/>
 </div>
 
 <h4>Integrantes</h4>
