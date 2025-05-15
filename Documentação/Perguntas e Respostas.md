@@ -2,9 +2,8 @@
 
 <nav> 
 <ul> 
-        <li> Porque você gostaria de ter um site? 
-        R: Com o site, posso ter mais visualizações e acesso a empresa. Podendo assim, conhecer os nossos serviços oferecidos.
-        </li>
+        <li> Porque você gostaria de ter um site? </li>
+        - Com o site, posso ter mais visualizações e acesso a empresa. Podendo assim, conhecer os nossos serviços oferecidos.
         <li>Que tipo de site você precisaria?</li>
         <li>Que tipo de conteúdo você gostaria de ter no seu site?</li>
         <li>Quais pessoas utilizariam o site?</li>
