@@ -1,4 +1,6 @@
+<div align='center' style="display: inline">
 <h1>Perguntas e Respostas ✔️</h1>
+</div>
 
 <nav> 
 <ul> 
@@ -30,7 +32,7 @@
 </ul>
  </nav>
 
-<div>
+<div align='center' style="display: inline">
   <h3>Proprietários do Salão André & Cia</h3>
   <img src="../Documentação/img/proprietarios.jpeg" 
        style="width: 120px; height: 120px;" />
