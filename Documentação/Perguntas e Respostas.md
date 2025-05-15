@@ -29,3 +29,7 @@
         - Feminino, Masculino, outros. Criança, adultos e idosos.
 </ul>
  </nav>
+
+ <h3>Proprietários do Salão André & Cia</h3>
+ <p></p>
+ <img src="../Documentação/img/proprietarios.jpeg" style="width: 100px; height: 100px; border-radius: 50%;"/>
