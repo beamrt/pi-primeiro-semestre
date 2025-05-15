@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Perguntas e Respostas ✔️</h1>
+<h1>Perguntas e Respostas ✔️</h1>
 
 <nav> 
 <ul> 
@@ -30,6 +30,8 @@
 </ul>
  </nav>
 
- <h3 style="text-align: center;">Proprietários do Salão André & Cia</h3>
- <p></p>
- <img style="text-align: center;" src="../Documentação/img/proprietarios.jpeg" style="width: 140px; height: 140px; border-radius: 50%"/>
+<div style="text-align: center;">
+  <h3>Proprietários do Salão André & Cia</h3>
+  <img src="../Documentação/img/proprietarios.jpeg" 
+       style="width: 120px; height: 120px; border-radius: 50%;" />
+</div>
