@@ -1,0 +1,32 @@
+<h2>Projeto Interdisciplinar - 1 Semestre (Fatec)</h2>
+<p>Grupo 3 - 2025 </p>
+
+<h4> Tecnologias Utilizadas:</h4>
+
+<div style="display: inline">
+<img width='50' height='50' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+<img width='50' height='50' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
+<img width='50' height='50' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+</div>
+
+<div>
+<<<<<<< HEAD:README/README.md
+<h4>Trabalho de Implementação de Software: Salão André & Cia</h4>
+<img width='80' height='80' src="../README/img/logo.jpeg"/>
+=======
+<h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
+<img src="../Documentação/img/logo.jpeg" width='80' height='80'/>
+>>>>>>> 244ec05c99ab1303db3d7da8253e828caef24eea:README.md
+</div>
+
+<h4>Integrantes</h4>
+<nav>
+    <ul>
+        <li>Beatriz</li>
+        <li>Pedro</li>
+        <li>João</li>
+        <li>Gabriel</li>
+        <li>Matheus</li>
+        <li>Samuel</li> 
+</ul>
+</nav>
