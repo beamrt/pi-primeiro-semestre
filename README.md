@@ -1,5 +1,7 @@
-<h2>Projeto Interdisciplinar - 1 Semestre (Fatec)</h2>
-<p>Grupo 3 - 2025 💻</p>
+<div align='center' style="display: inline">
+<h2>Projeto Interdisciplinar - 1 Semestre 💻 (Fatec)</h2>
+<p>Grupo 3 - 2025</p>
+</div>
 
 <h4> Tecnologias Utilizadas:</h4>
 
