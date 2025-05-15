@@ -12,7 +12,7 @@
 
 <div align='center' style="display: inline">    
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
-<img src="../pi-primeiro-semestre/README/img/logo.jpeg" width='100' height='100'/>
+<img src="../pi-primeiro-semestre/Documentação/img/logo_circular.png" width='100' height='100'/>
 </div>
 
 <h4>Integrantes</h4>
@@ -26,3 +26,5 @@
         <li>Samuel</li> 
 </ul>
 </nav>
+</nav>
+
