@@ -15,7 +15,6 @@
 <img src="../README/img/logo.jpeg" width='80' height='80'/>
 </div>
 
-<div align='center' style="display: inline">
 <h4>Integrantes</h4>
 <nav>
     <ul>
@@ -27,4 +26,4 @@
         <li>Samuel</li> 
 </ul>
 </nav>
-</div>
+
