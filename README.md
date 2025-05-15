@@ -9,12 +9,9 @@
 <img width='50' height='50' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
 </div>
 
-<div>
-<h4>Trabalho de Implementação de Software: Salão André & Cia</h4>
-<img width='80' height='80' src="../README/img/logo.jpeg"/>
     
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
-<img src="../Documentação/img/logo.jpeg" width='80' height='80'/>
+<img src="../README/img/logo.jpeg" width='80' height='80'/>
 </div>
 
 <h4>Integrantes</h4>
