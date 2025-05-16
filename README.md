@@ -1,4 +1,4 @@
-<div align='center' style="display: inline">
+<div align='center'>
 <h2>Projeto Interdisciplinar - 1 Semestre (Fatec) 💻</h2>
 <p>Grupo 3 - 2025</p>
 </div>
@@ -10,9 +10,10 @@
 <img width='50' height='50' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
 </div>
 
-<div align='center' style="display: inline">    
+<div align='center'>    
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
-<img src="../pi-primeiro-semestre/img/logo_circular.png" width='100' height='100'/>
+        <img src="../pi-primeiro-semestre/img/logo_circular.png"
+       style="width: 120px; height: 120px;" />
 </div>
 
 <h4>Integrantes</h4>
