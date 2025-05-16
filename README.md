@@ -12,8 +12,8 @@
 
 <div align='center'>    
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
-        <img src="../pi-primeiro-semestre/img/logo_circular.png"
-       style="width: 120px; height: 120px;" />
+        <img src="img/logo_circular.png"
+       style="width: 120px; height: 120px;"/>
 </div>
 
 <h4>Integrantes</h4>
