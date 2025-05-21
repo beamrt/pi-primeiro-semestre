@@ -19,12 +19,12 @@
 <h4>Integrantes</h4>
 <nav>
     <ul>
-        <li>Beatriz</li>
-        <li>Pedro</li>
-        <li>João</li>
-        <li>Gabriel</li>
-        <li>Matheus</li>
-        <li>Samuel</li> 
+        <li>Beatriz Martins</li>
+        <li>Pedro Benevides Souza</li>
+        <li>João Victor Paulino</li>
+        <li>Gabriel De Camargo Miranda</li>
+        <li>Matheus Eduardo Ramos</li>
+        <li>Samuel Heitor Fernandes</li> 
 </ul>
 </nav>
 </nav>
