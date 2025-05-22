@@ -1,0 +1,58 @@
+body {
+    background-color: #fdf6e3;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-fale-conosco {
+    position: relative;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5d5249;
+    background-color: transparent;
+    border: 2px solid #5d5249;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    margin-top: 20px;
+}
+
+.botao-fale-conosco::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #5d5249;
+    z-index: 0;
+    transition: width 0.4s ease;
+}
+
+.botao-fale-conosco:hover::before {
+    width: 100%;
+}
+
+.botao-fale-conosco span {
+    position: relative;
+    z-index: 1;
+}
+
+.botao-fale-conosco:hover {
+    color: #fff;
+}
+
+.centralizar-botao {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
