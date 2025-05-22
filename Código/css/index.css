@@ -6,10 +6,12 @@ body {
     flex-direction: column;
 }
 
-.botao-fale-conosco {
+.serviços {
+    display: block;
+    margin: auto;
     position: relative;
     padding: 12px 32px;
-    font-size: 16px;
+    font-size: 45px;
     font-family: sans-serif;
     color: #5d5249;
     background-color: transparent;
@@ -19,10 +21,11 @@ body {
     cursor: pointer;
     overflow: hidden;
     transition: color 0.4s ease;
-    margin-top: 20px;
+    margin-top: 20%;
+
 }
 
-.botao-fale-conosco::before {
+.serviços::before {
     content: '';
     position: absolute;
     left: 0;
@@ -34,25 +37,16 @@ body {
     transition: width 0.4s ease;
 }
 
-.botao-fale-conosco:hover::before {
+.serviços:hover::before {
     width: 100%;
 }
 
-.botao-fale-conosco span {
+.serviços span {
+    
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
-.botao-fale-conosco:hover {
+.serviços:hover{
     color: #fff;
 }
-
-.centralizar-botao {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
