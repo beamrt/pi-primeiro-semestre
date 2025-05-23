@@ -65,23 +65,26 @@
 
     </div>
     <div class="centralizar-botao" style="align-items: flex-start; padding-left: 60px;">
-       
-    <div style="margin: 0 auto; width: 50%;">
+       <!-- estrutura.form -->
+    <div style="margin: 0 auto; width: 50%; margin-left: 200px;">
 <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <div class="mb-3 espacamentoDoForm"> 
+    <input type="text" class="form-control espacamentoColunas" id="formGroupExampleInput" placeholder="Nome Completo">
+    <input type="text" class="form-control espacamentoColunas" id="formGroupExampleInput" placeholder="WhatsApp">
+    <input type="text" class="form-control espacamentoColunas" id="formGroupExampleInput" placeholder="Email">
+  <select class="form-select" aria-label="Default select example">
+  <option selected>Finalidade</option>
+  <option value="1">Orçamento</option>
+  <option value="2">Agendamento</option>
+  <option value="4">Dúvidas</option>
+  <option value="5">Parcerias</option>
+  <option value="">Outros</option>
+</select>
+    <input type="text" class="form-control espacamentoColunas" id="formGroupExampleInput" placeholder="Assunto">
+    <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Mensagem"></textarea>
+</div>
+    </div>
 </form>
 </div>
 

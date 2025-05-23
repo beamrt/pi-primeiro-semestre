@@ -54,5 +54,17 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.espacamentoDoForm{
+    margin-top: 50px;
+}
+
+.espacamentoColunas{
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+
+
 
 
