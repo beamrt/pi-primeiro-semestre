@@ -1,9 +1,31 @@
 body {
     background-color: #eee0d5;
     min-height: 100vh;
-    margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+a {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.firstnavbar {
+    background-color: #5d5249;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.firstnavbar .imgnav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.firstnavbar img {
+    width: 20px;
+    height: 20px;
 }
 
 .serviços {
@@ -11,7 +33,7 @@ body {
     margin: auto;
     position: relative;
     padding: 12px 32px;
-    font-size: 45px;
+    font-size: 25px;
     font-family: sans-serif;
     color: #5d5249;
     background-color: transparent;
@@ -21,7 +43,7 @@ body {
     cursor: pointer;
     overflow: hidden;
     transition: color 0.4s ease;
-    margin-top: 20%;
+    margin-top: 5%;
 
 }
 
@@ -42,11 +64,19 @@ body {
 }
 
 .serviços span {
-    
     position: relative;
     z-index: 0;
 }
 
 .serviços:hover{
     color: #fff;
+}
+
+.ft-separador {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ft-separador img {
+    width: 300px;
 }
