@@ -14,7 +14,7 @@
         <li>Quais pessoas utilizariam o site?</li>
         - Proprietário, profissionais, clientes.
         <li>Dessas pessoas, que tipo de permissão cada uma teria?</li>
-        - O proprietário, teria total acesso. Já os profissionais, teria acesso no agendamento, atualização de fotos e serviços. O cliente, consultaria os serviços oferecidos,
+        - O proprietário, teria total acesso. Já os profissionais, teria acesso no agendamento, consultaria os serviços e e-commerce, e também faria a atualização de fotos do serviços. O cliente, consultaria os serviços oferecidos,
         o e-commerce e os agendamentos pré-agendados.
         <li>Tem algum site que você tenha visto e achou legal/bonito, e poderia ser usado como modelo?</li>
         - Site da Wella e do salao Solange Freire.
