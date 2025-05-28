@@ -75,8 +75,24 @@ a {
 .ft-separador {
     margin: 0 auto;
     margin-top: 50px;
+    padding: 3%;
 }
 
 .ft-separador img {
     width: 300px;
 }
+
+.tb-serviços {
+    background-color: #5d5249;
+    padding: 5% 3%;
+}
+
+.pedicure, .cabeleireiro, .sobrancelha{
+    float: left;
+    color: #fff;
+    padding-left: 19%;
+}
+
+
+
+
