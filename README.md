@@ -19,12 +19,12 @@
 <h4>Integrantes</h4>
 <nav>
     <ul>
-        <li>Beatriz Martins https://github.com/beamrt</li>
-        <li>Pedro Benevides Souza https://github.com/PedroSouza77</li>
-        <li>João Victor Paulino https://github.com/366244jvpaulino</li>
-        <li>Gabriel De Camargo Miranda https://github.com/GabrelMiranda</li>
-        <li>Matheus Eduardo Ramos https://github.com/Matheus58898</li>
-        <li>Samuel Heitor Fernandes https://github.com/HeitFernandes</li> 
+        <li>Beatriz Martins: https://github.com/beamrt</li>
+        <li>Pedro Benevides Souza: https://github.com/PedroSouza77</li>
+        <li>João Victor Paulino: https://github.com/366244jvpaulino</li>
+        <li>Gabriel De Camargo Miranda: https://github.com/GabrelMiranda</li>
+        <li>Matheus Eduardo Ramos: https://github.com/Matheus58898</li>
+        <li>Samuel Heitor Fernandes: https://github.com/HeitFernandes</li> 
 </ul>
 </nav>
 </nav>
