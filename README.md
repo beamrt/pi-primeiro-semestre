@@ -14,7 +14,7 @@
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
         <img src="img/logo_circular.png"
        style="width: 180px; height: 180px;"/>
-</div>
+</div> 
 
 <h4>Integrantes</h4>
 <nav>
@@ -25,6 +25,13 @@
         <li>Gabriel De Camargo Miranda: https://github.com/GabrelMiranda</li>
         <li>Matheus Eduardo Ramos: https://github.com/Matheus58898</li>
         <li>Samuel Heitor Fernandes: https://github.com/HeitFernandes</li> 
+
+
+
+
+         
+Todos os Projetos feitos pelos Alunos da Fatec Araras podem ser acessados <a href="https://github.com/orlandosaraivajr/PI_FATEC_ARARAS">Por Aqui</a><p>. Todas as Lives e Temas sobre os grupos anteriores estarão aqui.</p>
+
 </ul>
 </nav>
 </nav>
