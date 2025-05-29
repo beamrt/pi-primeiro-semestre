@@ -26,11 +26,16 @@
         <li>Matheus Eduardo Ramos: https://github.com/Matheus58898</li>
         <li>Samuel Heitor Fernandes: https://github.com/HeitFernandes</li> 
 
+<div align='center'>
+<h2>Lista dos Projetos Integradores da FATEC Araras</h2>
+</div>
 
 
+<div>         
+Todos os Projetos feitos pelos Alunos da Fatec Araras podem ser acessados <a href="https://github.com/orlandosaraivajr/PI_FATEC_ARARAS">Por Aqui</a>
 
-         
-Todos os Projetos feitos pelos Alunos da Fatec Araras podem ser acessados <a href="https://github.com/orlandosaraivajr/PI_FATEC_ARARAS">Por Aqui</a><p>. Todas as Lives e Temas sobre os grupos anteriores estarão aqui.</p>
+
+</div>
 
 </ul>
 </nav>
