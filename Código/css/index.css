@@ -10,6 +10,16 @@ a {
     font-size: 20px;
 }
 
+.principal-nav {
+    margin: 0 auto;
+}
+
+.principal-nav img {
+    padding-left: 50px;
+    width: 160px;
+    height: 100px;
+}
+
 .firstnavbar {
     background-color: #5d5249;
     display: flex;
@@ -28,6 +38,29 @@ a {
     height: 20px;
 }
 
+.navbar-collapse {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.container-fluid {
+    padding-left: 50px;
+}
+
+.bt-login {
+    display: block;
+    margin: 0 auto; 
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #5d5249;
+    width: 85px;
+    height: 34px;
+    align-items: center;
+    justify-content: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .serviços {
     display: block;
     margin: auto;
@@ -43,7 +76,8 @@ a {
     cursor: pointer;
     overflow: hidden;
     transition: color 0.4s ease;
-    margin-top: 5%;
+    margin-top: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -72,10 +106,14 @@ a {
     color: #fff;
 }
 
+.dropdown-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
 .ft-separador {
     margin: 0 auto;
     margin-top: 50px;
-    padding: 3%;
 }
 
 .ft-separador img {
@@ -90,7 +128,7 @@ a {
 .pedicure, .cabeleireiro, .sobrancelha{
     float: left;
     color: #fff;
-    padding-left: 19%;
+    padding-left: 16%;
 }
 
 
