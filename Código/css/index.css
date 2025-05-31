@@ -67,7 +67,7 @@ a {
     position: relative;
     padding: 12px 32px;
     font-size: 25px;
-    font-family: sans-serif;
+    font-family:'Times New Roman', Times, serif;
     color: #5d5249;
     background-color: transparent;
     border: 2px solid #5d5249;
@@ -122,15 +122,77 @@ a {
 
 .tb-serviços {
     background-color: #5d5249;
-    padding: 5% 3%;
+    padding: 5% 0;
+    padding-right: 5%;
 }
+
 
 .pedicure, .cabeleireiro, .sobrancelha{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     float: left;
     color: #fff;
-    padding-left: 16%;
+    padding-left: 14%;
 }
 
 
+.svtexto {
+    color: #eee0d5;
+    text-decoration: none;
+    border: 1px solid #eee0d5;
+    position: relative;
+    padding: 10px 10px;
+    font-size: 20px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+    
+    
+}
 
+.svtexto::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #eee0d5;
+    z-index: 0;
+    transition: width 0.4s ease;
+    
+}
+
+.svtexto:hover::before {
+    width: 100%;
+}
+
+.svtexto a {
+    position: relative;
+    z-index: 2;
+}
+
+.svtexto:hover a {
+    color: #5d5249;
+}
+
+.svlink:hover {
+    color: #5d5249;
+}
+
+.svlink{
+    color: #fff;
+    text-decoration: none;
+    
+}
 
