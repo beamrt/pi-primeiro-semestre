@@ -17,7 +17,7 @@
 </div> 
 
 <div align='center'>
-        <a href="https://beamrt.github.io/pi-primeiro-semestre/Código/index.html" target="_blank">Confira o site aqui!</a>
+        <a href="https://beamrt.github.io/pi-primeiro-semestre/Código/index.html">Confira o site aqui!</a>
 </div>
 
 <h4>Integrantes</h4>
@@ -37,6 +37,6 @@
   
 <nav>
 <ul>
-        <li>Todos os Projetos feitos pelos Alunos da Fatec Araras podem ser acessados <a href="https://github.com/orlandosaraivajr/PI_FATEC_ARARAS" target="_blank">Por Aqui</a></li>
+        <li>Todos os Projetos feitos pelos Alunos da Fatec Araras podem ser acessados <a href="https://github.com/orlandosaraivajr/PI_FATEC_ARARAS">Por Aqui</a></li>
 </ul>
 </nav>
