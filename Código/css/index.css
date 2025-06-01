@@ -10,6 +10,7 @@ a {
     font-size: 20px;
 }
 
+
 .principal-nav {
     margin: 0 auto;
 }
@@ -82,7 +83,7 @@ a {
 
 }
 
-.serviços::before {
+/* .serviços::before {
     content: '';
     position: absolute;
     left: 0;
@@ -92,9 +93,9 @@ a {
     background-color: #5d5249;
     z-index: 0;
     transition: width 0.4s ease;
-}
+} */
 
-.serviços:hover::before {
+/* .serviços:hover::before {
     width: 100%;
 }
 
@@ -105,7 +106,7 @@ a {
 
 .serviços:hover{
     color: #fff;
-}
+} */
 
 .dropdown-item {
     font-family: 'Times New Roman', Times, serif;
@@ -123,19 +124,17 @@ a {
 
 .tb-serviços {
     background-color: #5d5249;
-    padding: 5% 0;
-    padding-right: 5%;
+    margin: 0 auto;
+    display: flex;
 }
 
 
-.pedicure, .cabeleireiro, .sobrancelha{
+.pedicure, .cabeleireiro, .sobrancelha {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     float: left;
     color: #fff;
-    padding-left: 12%;
 }
-
 
 .svtexto {
     width: 280px;
@@ -153,11 +152,8 @@ a {
     overflow: hidden;
     transition: color 0.4s ease;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    
-    
+    margin-top: 5px;
+    margin-bottom: 20px;   
     
 }
 
@@ -170,8 +166,7 @@ a {
     height: 100%;
     background-color: #eee0d5;
     z-index: 0;
-    transition: width 0.4s ease;
-    
+    transition: width 0.4s ease;  
 }
 
 .svtexto:hover::before {
@@ -197,3 +192,43 @@ a {
     
 }
 
+.div-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    margin: 20px 0 10px 50px;
+}
+
+.div-footer p {
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.div-footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer-separador img {
+    width: 350px;
+    transform: rotate(90deg);
+    margin-top: 160px;
+}
+
+iframe {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.copy {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-style: italic;
+    font-size: 12px;
+}
