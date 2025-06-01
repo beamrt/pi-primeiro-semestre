@@ -14,8 +14,11 @@
 <h4>Trabalho de Implementação de Software: Salão André & Cia ✂️</h4>
         <img src="img/logo_circular.png"
        style="width: 180px; height: 180px;"/>
-<a href="https://beamrt.github.io/pi-primeiro-semestre/Código/index.html">Confira o site aqui!</a>
 </div> 
+
+<div align='center'>
+        <a href="https://beamrt.github.io/pi-primeiro-semestre/Código/index.html">Confira o site aqui!</a>
+</div>
 
 <h4>Integrantes</h4>
 <nav>
