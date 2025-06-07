@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>André & Cia</title>
     <link rel="icon" href="./img/logo_circular.png" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/login.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,23 +21,25 @@
         </a>
         <h2>Área de Login</h2>
         <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div>
+                <label for="exampleInputEmail1">Email</label>
+                <input class="login-input" type="email" aria-describedby="emailHelp">
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+            <div>
+                <label for="exampleInputPassword1">Senha</label>
+                <input class="login-input" type="password">
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+            <div>
+                <input type="checkbox">
+                <label>Lembrar-me</label>
             </div>
-            <button type="button" class="btn btn-primary" onclick="window.location.href='index.html'">Entrar</button>
+            <button type="button" class="login-bt" onclick="window.location.href='index.html'">ENTRAR</button>
         </form>
+        <p>Não possui cadastro? Aperte <a href="#">AQUI</a>!</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
