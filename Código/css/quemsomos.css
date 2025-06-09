@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
@@ -44,23 +44,32 @@ a {
     align-items: center;
 }
 
+.dropdown-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
 .container-fluid {
     padding-left: 50px;
 }
 
 .bt-login {
-    display: block;
-    margin: 0 auto; 
+    display: block; 
     background-color: transparent;
     color: #fff;
     border: 1px solid #5d5249;
     width: 85px;
     height: 34px;
-    align-items: center;
-    justify-content: right;
+    right: 0;
+    margin-right: 50px; 
     font-family: 'Times New Roman', Times, serif;
 }
 
+.bt-login:hover {
+    background-color: #5d5249;
+    color: #eee0d5;
+    border: 1px #eee0d5 solid;
+}
 /* .serviços {
     display: block;
     margin: auto;
@@ -113,7 +122,7 @@ a {
 
 .ft-separador {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .ft-separador img {
@@ -127,66 +136,153 @@ a {
 
 
 
-.nossaHistoria{
-    display: block;
-    border: 2px solid #5d5249;
-    margin-top: 5%;
-    margin-left: 27%;
-    margin-right: 27%;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+.nossaHistoria {
+    border: 2px #5d5249 solid;
+    padding: 10px 10px;
+    width: 360px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
 }
 
-.biografiaDimensoes{
+.nossaHistoria p {
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #5d5249;
+    align-items: center;
+    justify-content: center;
+}
+
+.biografiaDimensoes {
     margin-right: 10%;
-    margin-top: 7%;
+    margin-top: 3%;
     margin-left: 10%;
     background-color: rgb(236, 219, 197);
     padding: 5%;
 }
 
-.conteudoLetra{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
+.conteudoLetra {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-.separandoElementos{
-    margin-top: 7%;
+.separandoElementos {
+    margin-top: 1px;
     background-color: #5d5249;
 }
 
-.principalServicos{
+.ft-quemsomos {
+    margin: 0 auto;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ft-quemsomos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+/* .principalServicos {
     margin-right: 10%;
     margin-left: 10%;
     background-color: #5d5249;
     padding: 5%;
-}
+} */
 
-.tituloServicos{
+.segunda-parte h4 {
     display: block;
-    border: 2px solid #5d5249;
-    margin-top: 5%;
-    margin-left: 27%;
-    margin-right: 27%;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: #eee0d5;
 }
 
-.servicoTopicos{
-        color: #eee0d5;
-        list-style: none;
-        font-family: 'Times New Roman', Times, serif;
-        margin: 5%;
+.segunda-parte li {
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #eee0d5;
 }
 
+.segunda-parte p {
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #eee0d5;
+}
 
+.servicoTopicos {
+    color: #eee0d5;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5%;
+}
 
+.div-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.footer {
+    margin: 20px 0 10px 50px;
+}
 
+.div-footer p {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
 
+.div-footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
 
+.servicos-footer {
+    display: flex;
+    width: 360px;
+    padding: 12px 12px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px #5d5249 solid;
+    align-items: center;
+    justify-content: center;
+}
 
+ h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #5d5249;
+}
 
+.footer-separador img {
+    width: 350px;
+    transform: rotate(90deg);
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+iframe {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.copy {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-style: italic;
+    font-size: 12px;
+}

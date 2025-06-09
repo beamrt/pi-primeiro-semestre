@@ -45,21 +45,35 @@ a {
     align-items: center;
 }
 
+.carousel-item {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    width: 1000px;
+    height: 500px;
+}
+
 .container-fluid {
     padding-left: 50px;
 }
 
 .bt-login {
-    display: block;
-    margin: 0 auto; 
+    display: block; 
     background-color: transparent;
     color: #fff;
     border: 1px solid #5d5249;
     width: 85px;
     height: 34px;
-    align-items: center;
-    justify-content: right;
+    right: 0;
+    margin-right: 50px; 
     font-family: 'Times New Roman', Times, serif;
+}
+
+.bt-login:hover {
+    background-color: #5d5249;
+    color: #eee0d5;
+    border: 1px #eee0d5 solid;
 }
 
 .serviços {
@@ -202,11 +216,12 @@ a {
 }
 
 .div-footer p {
+    margin-top: 20px;
     margin-left: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-align: center;
-    line-height: 2.5;
+    line-height: 1.5;
 }
 
 .div-footer img {
@@ -219,6 +234,7 @@ a {
     width: 350px;
     transform: rotate(90deg);
     margin-top: 160px;
+    margin-bottom: 160px;
 }
 
 iframe {

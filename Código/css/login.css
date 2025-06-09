@@ -9,19 +9,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(../img/fundo-login.png);
+    background-position:center;
+    width: 100%;
 }
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 10px 0 0 0 #a8998c, -5px 0 0 0 #a8998c;
-    background: #a8998c;
-    padding: 3px 0;
+    padding: 10px 0;
     position: relative;
 }
 
 .login-container {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 350px;
     padding: 30px;
     background-color: #5d5249;
     border-radius: 10px;
@@ -37,10 +38,43 @@ h2 {
     margin-top: 5px;
 }
 
-.form-label {
+label {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.form-check-label {
-    font-family: 'Times New Roman', Times, serif;
+.login-input {
+    padding: 5px;
+    border: 2px solid transparent;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px 2px rgb(0,0,0,0.088);
+    margin: 2px 0 2px 0;
+    width: 100%;
 }
+
+.login-bt {
+    margin-top: 20px;
+    width: 120px;
+    height: 40px; 
+    border: solid 1px #a8998c;
+    border-radius: 20px;
+    color: #a8998c;
+    background-color: transparent;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-bt-hover::before {
+    width: 100%;
+}
+
+.login-bt:hover {
+    background-color:transparent;
+    color: #a8998c;
+    transform: scale(1.2)
+} 
