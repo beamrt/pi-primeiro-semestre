@@ -4,15 +4,26 @@
     margin-left: 10%;
     background-color: rgb(236, 219, 197);
     padding: 5%;
-    padding-bottom: 10%;
 }
 
-.tituloManicure {
+h1 {
     text-align: center;
     padding-bottom: 5%;
 }
 
-.div-footer {
-    padding-top: 5%;
+.ft-unhas {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
+.ft-unhas img {
+    width: 300px;
+    height: 300px;
+}
+
+.tb-serviços {
+    width: 100%;
+}
