@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url(../img/fundo-login.png);
-    background-position:center;
+    background-position: unset;
     width: 100%;
 }
 
