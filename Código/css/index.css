@@ -225,11 +225,9 @@ a {
     border: 2px solid #5d5249;
     text-transform: uppercase;
     font-weight: bold;
-    cursor: pointer;
-    overflow: hidden;
-    transition: color 0.4s ease;
     margin-top: 50px;
     margin-bottom: 20px;
+    margin-left: 40px;
 
 
 }
@@ -261,9 +259,7 @@ a {
 }
 
 iframe {
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 30px;
+    margin: auto;
 }
 
 .copy {
