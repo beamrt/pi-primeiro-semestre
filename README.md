@@ -17,7 +17,7 @@
 </div> 
 
 <div align='center'>
-        <a href="https://beamrt.github.io/pi-primeiro-semestre/Código/index.html">Confira o site aqui!</a>
+        <a href="https://beamrt.github.io/pi-primeiro-semestre/Código/index.html">Confira o projeto aqui!</a>
 </div>
 
 <h4>Integrantes</h4>
