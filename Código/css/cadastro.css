@@ -1,0 +1,80 @@
+.fundo {
+    background-color: #a8998c;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-color: #a8998c;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/fundo-login.png);
+    background-position: unset;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0;
+    position: relative;
+}
+
+.cadastro-container {
+    width: 500px;
+    height: 650px;
+    padding: 30px;
+    background-color: #5d5249;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.img-logo {
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cadastro-input {
+    padding: 5px;
+    border: 2px solid transparent;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px 2px rgb(0,0,0,0.088);
+    margin: 2px 0 2px 0;
+    width: 100%;
+}
+
+.cadastro-bt {
+    margin-top: 20px;
+    width: 120px;
+    height: 40px; 
+    border: solid 1px #a8998c;
+    border-radius: 20px;
+    color: #a8998c;
+    background-color: transparent;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastro-bt-hover::before {
+    width: 100%;
+}
+
+.cadastro-bt:hover {
+    background-color:transparent;
+    color: #a8998c;
+    transform: scale(1.2)
+} 

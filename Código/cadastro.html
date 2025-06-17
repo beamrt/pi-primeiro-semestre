@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>André & Cia</title>
+    <link rel="icon" href="./img/logo_circular.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="fundo">
+
+    <div class="cadastro-container">
+        <h2>Área de Cadastro</h2>
+        <form>
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input class="cadastro-input" type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+            </div>
+            <div>
+                <label for="exampleInputEmail1">Email</label>
+                <input class="cadastro-input" type="email" placeholder="E-mail">
+            </div>
+            <label for="cep">CEP:</label>
+            <input class="cadastro-input" type="text" id="cep" name="cep" placeholder="Digite o CEP">
+            <label for="endereco">Endereço:</label>
+            <input class="cadastro-input" type="text" id="endereco" name="endereco" placeholder="Digite o endereço" required>
+
+            <label for="numero">Número:</label>
+            <input  class="cadastro-input" type="number" id="numero" name="numero" placeholder="Número" required>
+
+            <label for="complemento">Complemento:</label>
+            <input class="cadastro-input" type="text" id="complemento" name="complemento" placeholder="Complemento">
+
+            <label for="bairro">Bairro:</label>
+            <input class="cadastro-input" type="text" id="bairro" name="bairro" placeholder="Bairro" required>
+
+            <label for="cidade">Cidade:</label>
+            <input class="cadastro-input" type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+
+            <div>
+                <label for="exampleInputPassword1">Senha</label>
+                <input class="cadastro-input" type="password" placeholder="Senha">
+                <label for="exampleInputPassword1">Digite a senha novamente</label>
+                <input class="cadastro-input" type="password" placeholder="Senha">
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Masculino</label>
+                <input type="checkbox">
+                <label>Feminino</label>
+                <input type="checkbox">
+                <label>Outro</label>
+            </div>
+            <button type="button" class="cadastro-bt" onclick="window.location.href='index.html'">FINALIZAR
+                CADASTRO</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
