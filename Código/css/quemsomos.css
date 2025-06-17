@@ -54,14 +54,14 @@ a {
 }
 
 .bt-login {
-    display: block; 
+    display: block;
     background-color: transparent;
     color: #fff;
     border: 1px solid #5d5249;
     width: 85px;
     height: 34px;
     right: 0;
-    margin-right: 50px; 
+    margin-right: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -70,6 +70,7 @@ a {
     color: #eee0d5;
     border: 1px #eee0d5 solid;
 }
+
 /* .serviços {
     display: block;
     margin: auto;
@@ -133,8 +134,24 @@ a {
     background-color: #5d5249;
     padding: 5% 3%;
 } */
+.horarios {
+    width: 450px;
+    padding: 12px 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5d5249;
+    background-color: transparent;
+    border: 2px solid #5d5249;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
 
-
+iframe {
+    margin: auto;
+}
 
 .nossaHistoria {
     border: 2px #5d5249 solid;
@@ -186,6 +203,7 @@ a {
     height: 240px;
     border-radius: 50%;
 }
+
 /* .principalServicos {
     margin-right: 10%;
     margin-left: 10%;
@@ -261,7 +279,7 @@ a {
     justify-content: center;
 }
 
- h5 {
+h5 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 24px;
@@ -275,10 +293,6 @@ a {
     margin-bottom: 160px;
 }
 
-iframe {
-    margin-top: 20px;
-    margin-right: 50px;
-}
 
 .copy {
     font-family: 'Times New Roman', Times, serif;
