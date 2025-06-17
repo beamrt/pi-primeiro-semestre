@@ -212,13 +212,35 @@ a {
     justify-content: space-evenly;
 }
 
+.div-horario {
+    padding-left: 150px
+}
+.horarios {
+    width: 450px;
+    padding: 12px 30px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: #5d5249;
+    background-color: transparent;
+    border: 2px solid #5d5249;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
+}
+
 .footer {
-    margin: 20px 0 10px 50px;
+    margin: 10px 0 20px 0px;
 }
 
 .div-footer p {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-align: center;
@@ -240,7 +262,8 @@ a {
 
 iframe {
     margin-top: 20px;
-    margin-right: 50px;
+    margin-right: 0px;
+    margin-left: 30px;
 }
 
 .copy {
@@ -253,3 +276,4 @@ iframe {
 .tb-serviços {
     width: 100%;
 }
+
