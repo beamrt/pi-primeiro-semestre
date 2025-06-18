@@ -60,9 +60,7 @@ p {
     font-size: 22px;
 }
 
-/* ------------------------------
-   Responsividade para tablets
------------------------------- */
+/* Responsividade para tablets */
 @media (max-width: 991px) {
     .principal {
         flex-direction: column;
@@ -87,9 +85,7 @@ p {
     }
 }
 
-/* ------------------------------
-   Responsividade para celulares
------------------------------- */
+/*Responsividade para celulares */
 @media (max-width: 576px) {
     .textoDimensoes {
         width: 100%;
