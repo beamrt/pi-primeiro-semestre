@@ -279,3 +279,20 @@ h5 {
     margin-bottom: 20px;
     margin-left: 40px;
 }
+
+/* botão de login responsiva */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        flex-direction: column !important;
+    }
+
+    .bt-login {
+        margin-top: 1rem !important;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
