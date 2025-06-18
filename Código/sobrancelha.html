@@ -16,20 +16,28 @@
 </head>
 
 <body>
-  <!-- NAV BAR PRINCIPAL -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand principal-nav" href="index.html">
-        <img src="./img/logo.png" alt="" />
+  <nav class="firstnavbar bg-body-tertiary redessociais">
+    <div class="container-fluid imgnav">
+      <a class="navbar-brand" href="contato.html">
+        <img src="../Código/img/icon-phone.svg" alt="">
       </a>
+      <a class="navbar-brand" href="#">
+        <img src="../Código/img/icon-whatsapp.svg" alt="">
+      </a>
+      <a class="navbar-brand" href="https://www.instagram.com/salao.andrecia/" target="_blank">
+        <img src="../Código/img/icon-instagram.svg" alt="">
+      </a>
+    </div>
+  </nav>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div>
+      <a class="navbar-brand principal-nav" href="index.html">
+        <img src="./img/logo.png" alt=""></a>
+    </div>
+    <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
@@ -45,18 +53,15 @@
               Serviços
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="manicure.html">Manicure</a></li>
               <li><a class="dropdown-item" href="#">Cabeleireiro</a></li>
-              <li><a class="dropdown-item" href="sobrancelha.html">Sobrancelha & Cílios</a></li>
-              <li><a class="dropdown-item" href="#">Pedicure</a></li>
-              <li><a class="dropdown-item" href="#">Spa dos pés</a></li>
-              <li><a class="dropdown-item" href="#">Blindagem</a></li>
+              <li><a class="dropdown-item" href="manicure.html">Manicure & Pedicure</a></li>
+              <li><a class="dropdown-item" href="#">Sobrancelha & Cílios</a></li>
+              <li><a class="dropdown-item" href="#">e-Commerce</a></li>
             </ul>
           </li>
         </ul>
-        <button class="bt-login btn btn-outline-light ms-lg-3 mt-3 mt-lg-0" type="button"
-          onclick="window.location.href='login.html'">Login</button>
       </div>
+      <button class="bt-login" type="button" onclick="window.location.href='login.html'">Login</button>
     </div>
   </nav>
 
