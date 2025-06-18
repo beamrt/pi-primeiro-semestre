@@ -124,7 +124,9 @@ a {
     width: 100%;
 }
 
-.pedicure, .cabeleireiro, .sobrancelha {
+.pedicure,
+.cabeleireiro,
+.sobrancelha {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     float: left;
@@ -193,7 +195,6 @@ a {
     padding: 20px 10px;
 }
 
-
 .horarios {
     width: 450px;
     padding: 12px 30px;
@@ -245,7 +246,6 @@ iframe {
 }
 
 /* Responsivo para Tablet */
-
 @media (max-width: 991px) {
     .firstnavbar {
         flex-direction: column;
@@ -273,9 +273,7 @@ iframe {
     }
 }
 
-
 /* Responsivo para celular  */
-
 @media (max-width: 576px) {
     .carousel-item img {
         width: 100%;
@@ -297,7 +295,9 @@ iframe {
         flex-direction: column;
     }
 
-    .pedicure, .cabeleireiro, .sobrancelha {
+    .pedicure,
+    .cabeleireiro,
+    .sobrancelha {
         float: none;
         width: 100%;
     }
@@ -311,5 +311,44 @@ iframe {
     .footer-separador img {
         transform: rotate(0deg);
         margin: 60px auto;
+    }
+}
+
+.bt-login {
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #5d5249;
+    width: 85px;
+    height: 34px;
+    right: 0;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.bt-login:hover {
+    background-color: #5d5249;
+    color: #eee0d5;
+    border: 1px #eee0d5 solid;
+}
+
+/* Responsividade do login */
+@media (max-width: 991px) {
+    .bt-login {
+        width: 70px;
+        height: 30px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .bt-login {
+        width: 60px;
+        height: 28px;
+        margin-right: 10px;
+        font-size: 12px;
     }
 }
