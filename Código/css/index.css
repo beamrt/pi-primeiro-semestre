@@ -54,7 +54,7 @@ a {
 .carousel-item img {
     width: 100%;
     max-width: 1000px;
-    height: auto;
+    height: 400px;
     display: block;
     margin: 0 auto;
 }
@@ -193,9 +193,6 @@ a {
     padding: 20px 10px;
 }
 
-.div-horario {
-    padding-left: 150px;
-}
 
 .horarios {
     width: 450px;
@@ -247,9 +244,7 @@ iframe {
     font-size: 12px;
 }
 
-/* ----------------------------------------
-   MEDIA QUERIES PARA RESPONSIVIDADE
----------------------------------------- */
+/* Responsivo para Tablet */
 
 @media (max-width: 991px) {
     .firstnavbar {
@@ -278,10 +273,13 @@ iframe {
     }
 }
 
+
+/* Responsivo para celular  */
+
 @media (max-width: 576px) {
     .carousel-item img {
         width: 100%;
-        height: auto;
+        height: 300px;
     }
 
     .serviços,
@@ -307,6 +305,7 @@ iframe {
     .div-footer {
         flex-direction: column;
         gap: 20px;
+        text-align: center;
     }
 
     .footer-separador img {

@@ -23,7 +23,7 @@ h1 {
     font-weight: bold;
 }
 
-p {
+.textoDimensoes p {
     text-align: left;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
@@ -59,6 +59,8 @@ p {
     font-weight: bold;
     font-size: 22px;
 }
+
+
 
 /* Responsividade para tablets */
 @media (max-width: 991px) {
