@@ -71,56 +71,6 @@ a {
     border: 1px #eee0d5 solid;
 }
 
-/* .serviços {
-    display: block;
-    margin: auto;
-    position: relative;
-    padding: 12px 32px;
-    font-size: 25px;
-    font-family: sans-serif;
-    color: #5d5249;
-    background-color: transparent;
-    border: 2px solid #5d5249;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    overflow: hidden;
-    transition: color 0.4s ease;
-    margin-top: 50px;
-    margin-bottom: 20px;
-
-} */
-
-/* .serviços::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #5d5249;
-    z-index: 0;
-    transition: width 0.4s ease;
-}
-
-.serviços:hover::before {
-    width: 100%;
-}
-
-.serviços span {
-    position: relative;
-    z-index: 0;
-}
-
-.serviços:hover{
-    color: #fff;
-} */
-
-/* .dropdown-item {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-} */
-
 .ft-separador {
     margin: 0 auto;
     margin-top: 30px;
@@ -130,10 +80,6 @@ a {
     width: 300px;
 }
 
-/* .tb-serviços {
-    background-color: #5d5249;
-    padding: 5% 3%;
-} */
 .horarios {
     width: 450px;
     padding: 12px 30px;
@@ -151,6 +97,7 @@ a {
 
 iframe {
     margin: auto;
+    max-width: 100%;
 }
 
 .nossaHistoria {
@@ -204,13 +151,6 @@ iframe {
     border-radius: 50%;
 }
 
-/* .principalServicos {
-    margin-right: 10%;
-    margin-left: 10%;
-    background-color: #5d5249;
-    padding: 5%;
-} */
-
 .segunda-parte h4 {
     display: block;
     padding: 15px;
@@ -246,6 +186,7 @@ iframe {
 .div-footer {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .footer {
@@ -293,10 +234,208 @@ h5 {
     margin-bottom: 160px;
 }
 
-
 .copy {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     font-style: italic;
     font-size: 12px;
+}
+
+/* ===== Responsividade ===== */
+
+/* Tablet */
+@media (max-width: 991px) {
+    .principal-nav img {
+        padding-left: 20px;
+        width: 130px;
+        height: 80px;
+    }
+
+    .firstnavbar {
+        justify-content: space-around;
+    }
+
+    .navbar-collapse {
+        padding-left: 10px;
+    }
+
+    .bt-login {
+        width: 70px;
+        height: 30px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .ft-separador img {
+        width: 220px;
+    }
+
+    .horarios {
+        width: 350px;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .nossaHistoria {
+        width: 280px;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nossaHistoria p {
+        font-size: 18px;
+    }
+
+    .biografiaDimensoes {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 4%;
+    }
+
+    .conteudoLetra {
+        font-size: 18px;
+    }
+
+    .ft-quemsomos {
+        flex-direction: row;
+        margin: 20px auto;
+    }
+
+    .ft-quemsomos img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 15px;
+    }
+
+    .div-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        margin-left: 0;
+    }
+
+    .div-footer p {
+        margin-left: 0;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .servicos-footer {
+        width: 280px;
+    }
+
+    .footer-separador img {
+        width: 220px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+/* Celular */
+@media (max-width: 575px) {
+    a {
+        font-size: 16px;
+    }
+
+    .principal-nav img {
+        padding-left: 10px;
+        width: 120px;
+        height: 70px;
+    }
+
+    .firstnavbar {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .dropdown-item {
+        font-size: 13px;
+    }
+
+    .bt-login {
+        width: 60px;
+        height: 28px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .ft-separador img {
+        width: 180px;
+    }
+
+    .horarios {
+        width: 100%;
+        max-width: 280px;
+        padding: 8px 15px;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .nossaHistoria {
+        width: 100%;
+        max-width: 280px;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nossaHistoria p {
+        font-size: 16px;
+    }
+
+    .biografiaDimensoes {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 3%;
+    }
+
+    .conteudoLetra {
+        font-size: 16px;
+    }
+
+    .ft-quemsomos {
+        flex-direction: row;
+        margin: 15px auto;
+    }
+
+    .ft-quemsomos img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+
+    .div-footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .footer {
+        margin-left: 0;
+    }
+
+    .div-footer p {
+        margin-left: 0;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .servicos-footer {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .footer-separador img {
+        width: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        transform: rotate(90deg);
+    }
 }

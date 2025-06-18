@@ -6,10 +6,9 @@ body {
 }
 
 a {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
 
 .principal-nav {
     margin: 0 auto;
@@ -26,6 +25,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .firstnavbar .imgnav {
@@ -43,6 +44,7 @@ a {
     display: flex;
     padding-left: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .carousel-item {
@@ -50,8 +52,11 @@ a {
 }
 
 .carousel-item img {
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
 }
 
 .container-fluid {
@@ -59,14 +64,13 @@ a {
 }
 
 .bt-login {
-    display: block; 
+    display: block;
     background-color: transparent;
     color: #fff;
     border: 1px solid #5d5249;
     width: 85px;
     height: 34px;
-    right: 0;
-    margin-right: 50px; 
+    margin-right: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -79,11 +83,11 @@ a {
 .serviços {
     width: 450px;
     display: block;
-    margin: auto;
+    margin: 50px auto 20px auto;
     position: relative;
     padding: 12px 32px;
     font-size: 25px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #5d5249;
     background-color: transparent;
     border: 2px solid #5d5249;
@@ -92,35 +96,7 @@ a {
     cursor: pointer;
     overflow: hidden;
     transition: color 0.4s ease;
-    margin-top: 50px;
-    margin-bottom: 20px;
-
 }
-
-/* .serviços::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #5d5249;
-    z-index: 0;
-    transition: width 0.4s ease;
-} */
-
-/* .serviços:hover::before {
-    width: 100%;
-}
-
-.serviços span {
-    position: relative;
-    z-index: 0;
-}
-
-.serviços:hover{
-    color: #fff;
-} */
 
 .dropdown-item {
     font-family: 'Times New Roman', Times, serif;
@@ -128,12 +104,14 @@ a {
 }
 
 .ft-separador {
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
+    text-align: center;
 }
 
 .ft-separador img {
     width: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .tb-serviços {
@@ -142,6 +120,8 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #5d5249;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .pedicure, .cabeleireiro, .sobrancelha {
@@ -149,6 +129,8 @@ a {
     text-align: center;
     float: left;
     color: #fff;
+    flex: 1 1 200px;
+    margin: 10px;
 }
 
 .svtexto {
@@ -166,10 +148,7 @@ a {
     cursor: pointer;
     overflow: hidden;
     transition: color 0.4s ease;
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 20px;   
-    
+    margin: 5px auto 20px auto;
 }
 
 .svtexto::before {
@@ -181,7 +160,7 @@ a {
     height: 100%;
     background-color: #eee0d5;
     z-index: 0;
-    transition: width 0.4s ease;  
+    transition: width 0.4s ease;
 }
 
 .svtexto:hover::before {
@@ -201,35 +180,31 @@ a {
     color: #5d5249;
 }
 
-.svlink{
+.svlink {
     color: #fff;
     text-decoration: none;
-    
 }
 
 .div-footer {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 10px;
 }
 
-.div-horario {
-    padding-left: 150px
-}
+
 .horarios {
     width: 450px;
     padding: 12px 30px;
     font-size: 25px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #5d5249;
     background-color: transparent;
     border: 2px solid #5d5249;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-
-
+    margin: 50px auto 20px 40px;
 }
 
 .footer {
@@ -238,10 +213,8 @@ a {
 
 .div-footer p {
     margin-top: 20px;
-    margin-left: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    text-align: center;
     line-height: 1.5;
 }
 
@@ -253,13 +226,15 @@ a {
 
 .footer-separador img {
     width: 350px;
+    max-width: 100%;
     transform: rotate(90deg);
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: 160px auto;
+    display: block;
 }
 
 iframe {
     margin: auto;
+    max-width: 100%;
 }
 
 .copy {
@@ -269,7 +244,72 @@ iframe {
     font-size: 12px;
 }
 
-.tb-serviços {
-    width: 100%;
+/* Responsivo para Tablet */
+
+@media (max-width: 991px) {
+    .firstnavbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bt-login {
+        margin: 20px auto 0 auto;
+    }
+
+    .div-horario {
+        padding-left: 0;
+    }
+
+    .horarios {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .principal-nav img {
+        padding-left: 0;
+        margin: 10px auto;
+        display: block;
+    }
 }
 
+
+/* Responsivo para celular  */
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .serviços,
+    .horarios {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .svtexto {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .tb-serviços {
+        flex-direction: column;
+    }
+
+    .pedicure, .cabeleireiro, .sobrancelha {
+        float: none;
+        width: 100%;
+    }
+
+    .div-footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-separador img {
+        transform: rotate(0deg);
+        margin: 60px auto;
+    }
+}
