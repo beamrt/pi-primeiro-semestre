@@ -16,6 +16,8 @@
 </head>
 
 <body>
+
+    <!-- REDES SOCIAIS -->
   <nav class="firstnavbar bg-body-tertiary redessociais">
     <div class="container-fluid imgnav">
       <a class="navbar-brand" href="contato.html">
@@ -30,12 +32,16 @@
     </div>
   </nav>
 
+  <!-- NAV BAR PRINCIPAL -->
   <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
     <div>
       <a class="navbar-brand principal-nav" href="index.html">
         <img src="./img/logo.png" alt=""></a>
+
+        
+
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="Todoconteudo">
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -53,93 +59,95 @@
               Serviços
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="manicure.html">Manicure</a></li>
               <li><a class="dropdown-item" href="#">Cabeleireiro</a></li>
-              <li><a class="dropdown-item" href="manicure.html">Manicure & Pedicure</a></li>
               <li><a class="dropdown-item" href="sobrancelha.html">Sobrancelha & Cílios</a></li>
-              <li><a class="dropdown-item" href="#">e-Commerce</a></li>
+              <li><a class="dropdown-item" href="#">Pedicure</a></li>
+              <li><a class="dropdown-item" href="#">Spa dos pés</a></li>
+              <li><a class="dropdown-item" href="#">Blindagem</a></li>
             </ul>
           </li>
         </ul>
+        
       </div>
-      <button class="bt-login" type="button" onclick="window.location.href='login.html'">Login</button>
+ 
+      <button class="bt-login" type="button" id="navbarNavDropdown" onclick="window.location.href='login.html'">Login</button>
+
+      <div>
+
+      </div>
     </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
   </nav>
 
-  <div class="principal">
-    <div class="textoDimensoes">
+<div class="container">
+  <div class="row principal">
+    <div class="col-12 col-md-6 textoDimensoes">
       <h1>Manicure</h1>
-
-      <p> Cuidar das unhas vai além da estética — é também um momento de autocuidado e bem-estar. </p>
-      <p>Na manicure, existem diferentes tipos de esmaltação para atender a cada estilo e ocasião, desde os mais
-        discretos
-        até os mais criativos.</p>
-      <p>A esmaltação simples é o procedimento clássico que deixa as unhas bonitas, bem cuidadas e com acabamento
-        elegante. Já a esmaltação com adesivos ou artística é perfeita para quem gosta de um toque diferenciado, com
-        desenhos, detalhes ou pedrarias.</p>
-      <!-- <p>Oferecemos um atendimento completo para seus pés e mãos, com pacotes personalizados.</p> -->
+      <p>Cuidar das unhas vai além da estética — é também um momento de autocuidado e bem-estar.</p>
+      <p>Na manicure, existem diferentes tipos de esmaltação para atender a cada estilo e ocasião...</p>
+      <p>A esmaltação simples é o procedimento clássico...</p>
     </div>
 
-    <div class="ft-unhas">
-      <img src="./img/unha5.jpeg" alt="">
-      <img src="./img/unha4.jpeg" alt="">
+    <div class="col-12 col-md-6 ft-unhas d-flex flex-wrap justify-content-center gap-2">
+      <img src="./img/unha5.jpeg" class="img-fluid" alt="">
+      <img src="./img/unha4.jpeg" class="img-fluid" alt="">
     </div>
 
-    <div class="textoDimensoes">
+    <div class="col-12 col-md-6 textoDimensoes">
       <h1>Blindagem</h1>
-
-      <p>Blindagem de unhas é um procedimento que reforça a estrutura natural das unhas,
-        criando uma camada protetora com produtos como gel. </p>
-      <p>Diferente da alongação,
-        ela é feita diretamente sobre a unha natural, sem necessidade de tips ou moldes.</p>
+      <p>Blindagem de unhas é um procedimento que reforça a estrutura natural...</p>
+      <p>Diferente da alongação, ela é feita diretamente sobre a unha natural...</p>
       <ul class="lista">
         <p>Benefícios da blindagem:</p>
-        <li>Fortalece unhas fracas e quebradiças.</li>
-        <li>Ajuda no crescimento saudável das unhas naturais.</li>
-        <li>Aumenta a durabilidade do esmalte.</li>
-        <li>Proporciona acabamento liso e bonito.</li>
-        <li>Reduz a quebra e lascas no dia a dia.</li>
+        <li>Fortalece unhas fracas...</li>
+        <li>Ajuda no crescimento saudável...</li>
+        <li>Aumenta a durabilidade...</li>
+        <li>Proporciona acabamento liso...</li>
+        <li>Reduz a quebra e lascas...</li>
       </ul>
     </div>
 
-    <div class="ft-unhas">
-      <img src="./img/unha3.jpeg" alt="">
-      <img src="./img/unhas1.jpeg" alt="">
+    <div class="col-12 col-md-6 ft-unhas d-flex flex-wrap justify-content-center gap-2">
+      <img src="./img/unha3.jpeg" class="img-fluid" alt="">
+      <img src="./img/unhas1.jpeg" class="img-fluid" alt="">
     </div>
   </div>
-  <div class="ft-separador">
-    <img src="../Código/img/separador.png" alt="">
+
+  <div class="row">
+    <div class="col-12 ft-separador text-center">
+      <img src="../Código/img/separador.png" class="img-fluid" alt="">
+    </div>
   </div>
 
-  <div class="principal">
-    <div class="textoDimensoes">
+  <div class="row principal">
+    <div class="col-12 col-md-6 textoDimensoes">
       <h1>Spa Dos Pés</h1>
+      <p>O spa dos pés é um tratamento estético e terapêutico que promove a renovação...</p>
+      <p>O procedimento geralmente começa com um escalda-pés em água morna...</p>
+    </div>
 
-      <p>O spa dos pés é um tratamento estético e terapêutico que promove a renovação e hidratação profunda da pele,
-        ideal
-        para pés ressecados, com rachaduras ou calosidades. </p>
-      <p>O procedimento geralmente começa com um escalda-pés em água morna, com sais e óleos essenciais. O procedimento
-        inclui esfoliação, remoção de células mortas, aplicação de produtos específicos e máscara
-        hidratante, deixando os pés macios, saudáveis e com aparência rejuvenescida.</p>
+    <div class="col-12 col-md-6 ft-unhas d-flex flex-wrap justify-content-center gap-2">
+      <img src="./img/spa-pes2.jpeg" class="img-fluid" alt="">
+      <img src="./img/pedicure2.jpeg" class="img-fluid" alt="">
     </div>
-    <div class="ft-unhas">
-      <img src="./img/spa-pes2.jpeg" alt="">
-      <img src="./img/pedicure2.jpeg" alt="">
-    </div>
-    <div class="textoDimensoes">
+
+    <div class="col-12 col-md-6 textoDimensoes">
       <h1>Pedicure</h1>
-      <p>A pedicure é um tratamento essencial para a saúde e estética dos pés. </p>
-      <p> O procedimento inclui higienização profunda, remoção de cutículas, lixamento das
-        unhas e calosidades,
-        além de uma hidratação intensa que deixa a
-        pele macia e renovada.
-        Finalizamos com a esmaltação, que dá o toque final de charme e cuidado.</p>
-      <p>Oferecemos um atendimento completo para seus pés e mãos, com pacotes personalizados.</p>
+      <p>A pedicure é um tratamento essencial para a saúde e estética dos pés...</p>
+      <p>O procedimento inclui higienização profunda...</p>
+      <p>Oferecemos um atendimento completo para seus pés e mãos...</p>
     </div>
-    <div class="ft-unhas">
-      <img src="./img/pedicure3.jpeg" alt="">
-      <img src="./img/pedicure1.jpeg" alt="">
+
+    <div class="col-12 col-md-6 ft-unhas d-flex flex-wrap justify-content-center gap-2">
+      <img src="./img/pedicure3.jpeg" class="img-fluid" alt="">
+      <img src="./img/pedicure1.jpeg" class="img-fluid" alt="">
     </div>
   </div>
+</div>
+
 
 
   <div class="ft-separador">
