@@ -26,12 +26,13 @@
     </div>
   </nav>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- NAV BAR PRINCIPAL -->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
     <div>
       <a class="navbar-brand principal-nav" href="index.html">
-        <img src="./img/logo.png" alt="" class="img-fluid"></a>
+        <img src="./img/logo.png" alt=""></a>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="Todoconteudo">
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -49,16 +50,28 @@
               Serviços
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="manicure.html">Manicure</a></li>
               <li><a class="dropdown-item" href="#">Cabeleireiro</a></li>
-              <li><a class="dropdown-item" href="manicure.html">Manicure & Pedicure</a></li>
               <li><a class="dropdown-item" href="sobrancelha.html">Sobrancelha & Cílios</a></li>
-              <li><a class="dropdown-item" href="#">e-Commerce</a></li>
+              <li><a class="dropdown-item" href="#">Pedicure</a></li>
+              <li><a class="dropdown-item" href="#">Spa dos pés</a></li>
+              <li><a class="dropdown-item" href="#">Blindagem</a></li>
             </ul>
           </li>
         </ul>
+
       </div>
-      <button class="bt-login" type="button" onclick="window.location.href='login.html'">Login</button>
+
+      <button class="bt-login" type="button" id="navbarNavDropdown"
+        onclick="window.location.href='login.html'">Login</button>
+
+      <div>
+
+      </div>
     </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </nav>
 
   <div class="nossaHistoria">
