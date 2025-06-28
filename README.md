@@ -24,6 +24,11 @@
         <a href="https://www.figma.com/design/1AqRHGjxrxO5RKuiG9Q65v/Sem-t%C3%ADtulo?node-id=0-1&t=CpJ7DIKBH57W9qmt-1">Link Figma</a>
 </div>
 
+<div align='center'>
+        <a href="https://salaoandreecia.wuaze.com/index.html">Site Hospedado</a>
+</div>
+
+
 <h4>Integrantes</h4>
 <nav>
     <ul>
